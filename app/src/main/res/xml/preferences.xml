@@ -93,7 +93,12 @@
                 android:key="@string/pref_key_ui_article_textAlignment_justify"
                 android:title="@string/pref_name_ui_article_textAlignment_justify"
                 android:summary="@string/pref_desc_ui_article_textAlignment_justify"
-                android:defaultValue="true"/>
+                android:defaultValue="false"/>
+            <CheckBoxPreference
+                android:key="@string/pref_key_ui_annotations_enabled"
+                android:title="@string/pref_name_ui_annotations_enabled"
+                android:summary="@string/pref_desc_ui_annotations_enabled"
+                android:defaultValue="false"/>
             <CheckBoxPreference
                 android:key="@string/pref_key_ui_onyxworkaround_enabled"
                 android:title="@string/pref_name_ui_onyxworkaround_enabled"
